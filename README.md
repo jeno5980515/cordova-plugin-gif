@@ -37,7 +37,7 @@ document.addEventListener('deviceready', function () {
 # Libraries Used
 [android-gif-encoder](https://github.com/nbadal/android-gif-encoder)
 
-# TODO
+# ToDo
 *	iOS
 *	Setting
 *	Content URI
