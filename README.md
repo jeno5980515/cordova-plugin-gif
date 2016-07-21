@@ -8,7 +8,6 @@ This plugin is designed to encode images to gif.
 ```
 $ cordova plugin add https://github.com/jeno5980515/cordova-plugin-gif
 ```
-
 # Example
 ```javascript
 document.addEventListener('deviceready', function () {
@@ -31,11 +30,12 @@ document.addEventListener('deviceready', function () {
 		alert(err);
 	}
 
-	
 });
 ``` 
+# Libraries Used
+[android-gif-encoder](https://github.com/nbadal/android-gif-encoder)
 
 # TODO
-*   iOS
+*	iOS
 *	Setting
 *	Content URI
