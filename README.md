@@ -16,7 +16,9 @@ document.addEventListener('deviceready', function () {
 	
 	var base64 = "" ;
 
-	window.plugins.gif.addFrame(base64);
+	window.plugins.gif.addFrame(base64,{
+	    type : "base64" 
+	});
 
 	window.plugins.gif.finish(successCallback,errorCallback);
 
